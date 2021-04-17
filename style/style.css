@@ -1,0 +1,144 @@
+body,html {
+    height: 100%;
+    margin:0;
+    font-size: 16px;
+    font-family:sans-serif;
+    font-weight: 400;
+    line-height:1.8em;
+    background-color:#666;
+
+}
+.img1, .img2, .img3, .img4, .img5, .img6{
+    position: relative;
+    opacity: 0.7;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+
+}
+.img1{
+    background-image: url('../img/clouds.jpg');
+    min-height: 100%;
+    
+}
+
+.img2{
+    background-image: url('../img/neon.jpg');
+    min-height: 400px;
+    color:white;
+
+}
+.img3{
+    background-image: url('../img/city.jpg');
+    min-height: 400px;
+}
+.img4{
+    background-image: url('../img/poem.jpg');
+    min-height: 400px;
+}
+.img5{
+    background-image: url('../img/basketball.jpg');
+    min-height: 400px;
+}
+.img6{
+    background-image: url('../img/picschedule.jpg');
+    min-height: 400px;
+}
+
+.intro {
+    text-align:center;
+    padding:50px 80px;
+    background-image: linear-gradient(lightblue,#666);
+}
+.personal{
+    text-align:center;
+    list-style-position: inside;
+    padding:50px 80px;
+    background-image: linear-gradient(#666,lightyellow);
+}
+
+.books{
+    text-align:center;
+    list-style-position: inside;
+    padding:50px 80px;
+    background-image: linear-gradient(lightyellow,#6c8293);
+}
+
+.poem{
+    text-align:center;
+    padding:50px 80px;
+    background-image: linear-gradient(#6c8293,whitesmoke);
+}
+
+.interests{
+    text-align:center;
+    padding:50px 80px;
+    background-image: linear-gradient(whitesmoke,#192929);
+}
+.schedule{
+    margin-left: auto;
+    margin-right: auto;
+    padding:50px 80px;
+    padding-bottom: 100px;
+
+    background-color: #666;
+
+}
+
+table,th,td {
+    border: 1px solid black;
+    color: white;
+    padding: 3px 3px 3px 3px;
+    text-align: center;
+}
+
+.ptext{
+    position:absolute;
+    top:50%;
+    width: 100%;
+    text-align:center;
+    color: black;
+    letter-spacing: 8px;
+    font-size: 24px;
+}
+
+.ptext .border{
+    background-color: #111;
+    color:white;
+    padding:20px;
+
+}
+
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: whitesmoke;
+    color: white;
+    text-align: center;
+}
+
+#navbar {
+    overflow: hidden;
+    background-color: #333;
+    align-items: center
+}
+  
+ 
+#navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+#navbar a:hover{
+    background-color: white;
+    color: black;
+    
+}
